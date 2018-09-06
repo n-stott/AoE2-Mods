@@ -120,9 +120,11 @@ void twofiftysixify() {
         || effect.EffectCommands[0].Type == 3
         || effect.EffectCommands[0].Type == 12
         || effect.EffectCommands[0].Type == 13
-        || effect.EffectCommands[0].Type == 102 )
-      // std::cout << effect.Name << std::endl;
+        || effect.EffectCommands[0].Type == 102
+        || i != 47 || i != 664 ) {
+      // if (effect.Name != "") std::cout << i << " " << effect.Name << std::endl;
       continue;
+    }
     for(int j = 0; j < 255; ++j) {
       dataset->Techs.push_back(dataset->Techs[i]);
     }

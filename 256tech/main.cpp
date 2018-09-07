@@ -121,13 +121,14 @@ std::vector<int> quantity() {
   q[48] = 40; // caravan
   q[50] = 3; //masonry 17 is the limit in a vacuum
   q[51] = 3;
-  q[213] = 22;
+  q[213] = 20;
   q[215] = 30;
   q[249] = 1;
   q[252] = 20;
   //q[377] = ??; //Siege engineers - looks problematic, but never encountered...
-  q[379] = 5; //hoardings - 9 is the tipping point is a vacuum
+  q[379] = 4; //hoardings - 9 is the tipping point is a vacuum
   q[380] = 5;
+  q[437] = 20;
   q[462] = 9;
   q[486] = 30;
   return q;

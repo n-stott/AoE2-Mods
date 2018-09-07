@@ -108,8 +108,50 @@ void buff_petard() {
   dataset->Effects[604].EffectCommands.push_back(blastradius);
 }
 
+std::vector<int> quantity() {
+  int N = dataset->Techs.size();
+  std::vector<int> q;
+  for(int i = 0; i < N; ++i) {
+    q.push_back(255);
+  }
+  q[5] = 16;
+  q[6] = 15; // drill
+  q[7] = 15; // mahouts
+  q[39] = 20; // husbandry
+  q[48] = 40; // caravan
+  q[50] = 3; //masonry 17 is the limit in a vacuum
+  q[51] = 3;
+  q[213] = 22;
+  q[215] = 30;
+  q[249] = 1;
+  q[252] = 20;
+  //q[377] = ??; //Siege engineers - looks problematic, but never encountered...
+  q[379] = 5; //hoardings - 9 is the tipping point is a vacuum
+  q[380] = 5;
+  q[462] = 9;
+  q[486] = 30;
+  return q;
+}
+
+void find_mults() {
+  for(int i = 0; i < dataset->Techs.size(); ++i) {
+    genie::Effect* eff = &dataset->Effects[dataset->Techs[i].EffectID];
+    bool prob = false;
+    for(int j = 0; j < eff->EffectCommands.size(); ++j) {
+      int t = eff->EffectCommands[j].Type;
+      prob |= (t == 5 || t == 6 || t == 15 || t == 16) && (eff->EffectCommands[j].D > 1);
+    }
+    if (prob 
+      && (eff->Name != "Non-Research") 
+      && (eff->Name.find("Bonus") == std::string::npos ))
+     std::cout << i << "  " << dataset->Techs[i].Name << "\n   "
+     << dataset->Techs[i].EffectID << "  " << eff->Name << std::endl;
+  }
+}
+
 void twofiftysixify() {
   int N = dataset->Techs.size();
+  std::vector<int> q = quantity();
   for(int i = 0; i < N; ++i) {
  //   std::cout << i << "  " << N << std::endl;
     genie::Effect effect = dataset->Effects[dataset->Techs[i].EffectID];
@@ -121,11 +163,18 @@ void twofiftysixify() {
         || effect.EffectCommands[0].Type == 12
         || effect.EffectCommands[0].Type == 13
         || effect.EffectCommands[0].Type == 102
-        || i != 47 || i != 664 ) {
+        || i == 20 || i == 47 || i == 664 || (101 <= i && i <= 104)
+        || i == 71 || i == 128 || i == 658 || (669 <= i && i <= 671)
+        || i == 234 || i == 304 || i == 385 || i == 386
+        || i == 387 || i == 393 || i == 408 || (452 <= i && i <= 455)
+        || i == 600 || i == 612 || i == 610 || i == 611 || i == 353
+        || i == 28
+        ) {
       // if (effect.Name != "") std::cout << i << " " << effect.Name << std::endl;
       continue;
     }
-    for(int j = 0; j < 255; ++j) {
+    std::cout << i << "  " << dataset->Techs[i].Name << std::endl;
+    for(int j = 0; j < q[i]; ++j) {
       dataset->Techs.push_back(dataset->Techs[i]);
     }
   }
@@ -137,8 +186,9 @@ int main(int argc, char **argv)
   dataset->setGameVersion(genie::GV_Cysion);
   dataset->load("../dat/empires2_x2_p1.dat");
 
+  // find_mults();
+
   modify_farmrate();
-//  add_thumbring(dataset);
   modify_arrowspeed();
   buff_chemistry();
   buff_petard();

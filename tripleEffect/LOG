@@ -1,0 +1,215 @@
+Terrains: 100
+11  0  184 882  Lombards Team Bonus
+38  0  1079 1010  Berbers Team Bonus
+47  0  363 466  Chemistry
+47  1  364 375  Chemistry
+47  2  365 376  Chemistry
+47  6  367 378  Chemistry
+47  7  366 377  Chemistry
+47  9  369 468  Chemistry
+47  10  371 469  Chemistry
+47  11  372 470  Chemistry
+47  12  373 471  Chemistry
+47  13  478 476  Chemistry
+47  14  477 475  Chemistry
+47  16  54 328  Chemistry
+47  17  503 516  Chemistry
+47  18  504 517  Chemistry
+47  19  505 518  Chemistry
+47  20  507 519  Chemistry
+47  21  508 520  Chemistry
+47  22  509 521  Chemistry
+47  23  510 522  Chemistry
+47  24  511 523  Chemistry
+47  25  512 524  Chemistry
+47  26  513 526  Chemistry
+47  27  514 525  Chemistry
+47  32  551 552  Chemistry
+47  34  510 522  Chemistry
+47  35  540 541  Chemistry
+47  36  627 628  Chemistry
+47  37  656 658  Chemistry
+47  45  746 747  Chemistry
+47  58  1057 1058  Chemistry
+47  61  1111 378  Chemistry
+47  62  1113 628  Chemistry
+47  63  1167 1168  Chemistry
+47  64  1169 1170  Chemistry
+63  0  79 235  Free Keep
+96  0  35 422  Capped Ram
+101  1  109 71  Feudal Age
+101  2  618 614  Feudal Age
+101  3  619 615  Feudal Age
+101  4  620 616  Feudal Age
+101  5  621 617  Feudal Age
+101  6  103 105  Feudal Age
+101  7  68 129  Feudal Age
+101  8  104 30  Feudal Age
+101  9  45 133  Feudal Age
+101  10  70 463  Feudal Age
+101  11  12 498  Feudal Age
+101  12  562 563  Feudal Age
+101  13  584 585  Feudal Age
+101  15  805 806  Feudal Age
+102  1  87 10  Castle Age
+102  2  12 132  Castle Age
+102  3  103 18  Castle Age
+102  4  104 31  Castle Age
+102  5  45 47  Castle Age
+102  6  84 116  Castle Age
+102  7  68 130  Castle Age
+102  8  101 86  Castle Age
+102  9  109 141  Castle Age
+102  10  618 481  Castle Age
+102  11  619 482  Castle Age
+102  12  620 483  Castle Age
+102  13  621 484  Castle Age
+102  14  70 464  Castle Age
+102  15  562 564  Castle Age
+102  18  584 586  Castle Age
+102  24  805 807  Castle Age
+103  1  109 142  Imperial Age
+103  2  618 611  Imperial Age
+103  3  619 612  Imperial Age
+103  4  620 613  Imperial Age
+103  5  621 597  Imperial Age
+103  6  84 137  Imperial Age
+103  7  70 465  Imperial Age
+103  8  209 210  Imperial Age
+103  9  562 565  Imperial Age
+103  12  103 19  Imperial Age
+103  13  12 20  Imperial Age
+103  14  68 131  Imperial Age
+103  15  87 14  Imperial Age
+103  16  101 153  Imperial Age
+103  17  104 32  Imperial Age
+103  19  45 51  Imperial Age
+103  20  584 587  Imperial Age
+103  26  805 808  Imperial Age
+139  0  79 234  Free Guard Tower
+155  0  539 21  War Galley
+155  1  1103 529  War Galley
+155  2  1104 527  War Galley
+163  0  4 24  Crossbowman
+164  0  7 6  Elite Skirmisher
+170  0  539 442  Galleon
+170  1  21 442  Galleon
+175  0  38 283  Cavalier
+182  0  74 77  Long Swordsman
+182  1  75 77  Long Swordsman
+187  0  117 155  Fortified Wall
+187  1  64 63  Fortified Wall
+187  2  78 67  Fortified Wall
+187  3  81 80  Fortified Wall
+187  4  487 488  Fortified Wall
+187  5  88 85  Fortified Wall
+187  6  91 90  Fortified Wall
+187  7  95 92  Fortified Wall
+187  8  490 491  Fortified Wall
+187  9  659 660  Fortified Wall
+187  10  661 662  Fortified Wall
+187  11  663 664  Fortified Wall
+187  12  665 666  Fortified Wall
+187  13  667 668  Fortified Wall
+187  14  669 670  Fortified Wall
+187  15  671 672  Fortified Wall
+187  16  673 674  Fortified Wall
+189  0  93 359  Halberdier
+189  1  358 359  Halberdier
+190  0  93 358  Pikeman
+206  0  74 473  Two-Handed Swordsman
+206  1  75 473  Two-Handed Swordsman
+206  2  77 473  Two-Handed Swordsman
+207  0  39 474  Heavy Cav Archer
+211  0  74 75  Man-at-Arms
+225  0  329 330  Heavy Camel
+226  0  4 492  Arbalest
+226  1  24 492  Arbalest
+228  0  279 542  Heavy Scorpion
+233  0  527 528  Heavy Demolition Ship
+233  1  1104 528  Heavy Demolition Ship
+235  0  529 532  Fast Fire Ship
+235  1  1103 532  Fast Fire Ship
+245  0  448 546  Light Cavalry
+246  0  35 548  Siege Ram
+246  1  422 548  Siege Ram
+247  0  280 550  Onager
+252  0  74 567  Champion
+252  1  75 567  Champion
+252  2  473 567  Champion
+252  3  77 567  Champion
+253  0  38 569  Paladin
+253  1  283 569  Paladin
+320  0  280 588  Siege Onager
+320  1  550 588  Siege Onager
+358  0  8 530  Elite Longbowman
+359  0  40 553  Elite Cataphract
+360  0  73 559  Elite Chu Ko Nu
+361  0  281 531  Elite Throwing Axeman
+362  0  25 554  Elite Teutonic Knight
+363  0  41 555  Elite Huskarl
+363  1  759 761  Elite Huskarl
+364  0  291 560  Elite Samurai
+365  0  239 558  Elite War Elephant
+366  0  282 556  Elite Mameluke
+367  0  46 557  Elite Janissary
+368  0  232 534  Elite Woad Raider
+369  0  11 561  Elite Mangudai
+370  0  250 533  Elite Longboat
+374  0  420 691  Elite Cannon Galleon
+374  1  768 770  Elite Cannon Galleon
+397  0  692 694  Elite Berserk
+439  0  448 441  Hussar
+439  1  546 441  Hussar
+441  0  583 596  Elite Genitour
+444  0  725 726  Elite Jaguar Warrior
+445  0  751 752  Elite Eagle Warrior
+445  1  753 752  Elite Eagle Warrior
+454  0  755 757  Elite Tarkan
+454  1  886 887  Elite Tarkan
+469  0  763 765  Plumed Archer
+492  0  771 773  Elite Conquistador
+501  0  831 832  Elite Turtle Ship
+503  0  827 829  Elite War Wagon
+520  0  866 868  Elite Genoese Crossbowman
+526  0  869 871  Elite Magyar Huszar
+536  0  873 875  Elite Elephant Archer
+542  0  191 192  Falconry
+545  0  134 412  Madrasah
+557  0  876 878  Elite Boyar
+558  0  751 753  Eagle Warrior
+565  0  879 881  Elite Kamayuk
+577  0  329 207  Imperial Camel
+577  1  330 207  Imperial Camel
+580  0  72 119  Revetments
+592  0  1001 1003  Elite Organ Gun
+595  0  1007 1009  Elite Camel Archer
+597  0  1013 1015  Elite Gbeto
+599  0  1016 1018  Elite Shotel Warrior
+604  1  367 1111  Ethiopian UT 2
+604  2  627 1113  Ethiopian UT 2
+623  0  1004 1006  Elite Caravel
+625  0  1079 1012  Elite Genitour
+625  1  1010 1012  Elite Genitour
+634  0  367 1112  Chemistry + Torsion
+634  1  378 1112  Chemistry + Torsion
+634  2  1111 1112  Chemistry + Torsion
+634  3  627 1114  Chemistry + Torsion
+634  4  628 1114  Chemistry + Torsion
+634  5  1113 1114  Chemistry + Torsion
+655  0  1120 1122  Elite Ballista Elephant
+657  0  1123 1125  Elite Karambit Warrior
+659  0  1126 1128  Elite Arambai
+661  0  1129 1131  Elite Rattan Archer
+664  0  45 1189  Malay UT 1
+664  1  51 1189  Malay UT 1
+664  2  47 1189  Malay UT 1
+664  3  133 1189  Malay UT 1
+671  0  1132 1134  Elite Battle Elephant
+676  0  527 1104  Aztec Demolition ship (disable)
+691  0  7 1155  Imperial Skirmisher
+691  1  6 1155  Imperial Skirmisher
+704  0  890 1118  Llama bonus
+705  0  1118 889  Disable Llama bonus
+705  1  890 889  Disable Llama bonus
+Terrains: 100
